@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Non-Profit Organization</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Non-Profit Organization Service Learning Project</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#cart">Cart</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Welcome to our non-profit organization dedicated to environmental
+        conservation and education.
+      </p>
+    </section>
+
+    <section id="products" class="container">
+      <h2>Products</h2>
+      <div class="products-container">
+        <!-- Product 1 -->
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://scontent-atl3-2.xx.fbcdn.net/o1/v/t0/f1/m247/6733680151649838310_649321165_21-04-2024-14-56-15.jpeg?_nc_ht=scontent-atl3-2.xx.fbcdn.net&_nc_cat=100&ccb=9-4&oh=00_AfAuShI4JqAydkF9819tEqEcYiZGdctyrACeiclx4fXDUQ&oe=66275186&_nc_sid=5b3566"
+              alt="Product 1"
+          /></a>
+          <h3>Reusable Bamboo Straws</h3>
+          <p>
+            Set of 6 natural bamboo straws with a cleaning brush. Perfect for
+            reducing plastic waste.
+          </p>
+          <p>$12.99</p>
+          <button onclick="addToCart('Reusable Bamboo Straws', 12.99)">
+            Add to Cart
+          </button>
+        </div>
+        <!-- Add more products here -->
+        <!-- Product 2 -->
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://scontent-atl3-2.xx.fbcdn.net/o1/v/t0/f1/m247/8593950630511549359_2315086734_21-04-2024-14-56-47.jpeg?_nc_ht=scontent-atl3-2.xx.fbcdn.net&_nc_cat=105&ccb=9-4&oh=00_AfDD-ePLH0znlefj_u5JkfDEYcTLQFtSYcOjN6LkLb_How&oe=66274E0D&_nc_sid=5b3566"
+              alt="Product 2"
+          /></a>
+          <h3>Organic Cotton Tote Bag</h3>
+          <p>
+            Eco-friendly tote bag made from 100% organic cotton. Spacious and
+            durable.
+          </p>
+          <p>$19.99</p>
+          <button onclick="addToCart('Organic Cotton Tote Bag', 19.99)">
+            Add to Cart
+          </button>
+        </div>
+        <!-- Add more products here -->
+        <!-- Product 3 -->
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://scontent-atl3-2.xx.fbcdn.net/o1/v/t0/f1/m247/858640334337371837_1441664149_21-04-2024-14-57-16.jpeg?_nc_ht=scontent-atl3-2.xx.fbcdn.net&_nc_cat=110&ccb=9-4&oh=00_AfDB2Q7dznG1Dx2dU5XE1ta4Ak5lk7O6gnqQThVnDFuzCw&oe=662765A5&_nc_sid=5b3566"
+              alt="Product 3"
+          /></a>
+          <h3>Recycled PET Yoga Mat</h3>
+          <p>
+            Eco-friendly yoga mat made from recycled PET bottles. Non-slip and
+            comfortable for yoga practice.
+          </p>
+          <p>$29.99</p>
+          <button onclick="addToCart('Recycled PET Yoga Mat', 29.99)">
+            Add to Cart
+          </button>
+        </div>
+        <!-- Add more products here -->
+        <!-- Product 4 -->
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://scontent-atl3-2.xx.fbcdn.net/o1/v/t0/f1/m247/9187852411216576294_4226356268_21-04-2024-14-57-57.jpeg?_nc_ht=scontent-atl3-2.xx.fbcdn.net&_nc_cat=105&ccb=9-4&oh=00_AfAskadkrMBcWNJLioYKwnJPcPhql6WLVNpMzWCg9kDMgQ&oe=6627664F&_nc_sid=5b3566"
+              alt="Product 4"
+          /></a>
+          <h3>Biodegradable Plant Pots</h3>
+          <p>
+            Set of 5 biodegradable plant pots made from recycled materials.
+            Ideal for starting your garden.
+          </p>
+          <p>$7.49</p>
+          <button onclick="addToCart('Biodegradable Plant Pots', 7.49)">
+            Add to Cart
+          </button>
+        </div>
+        <!-- Add more products here -->
+        <!-- Product 5 -->
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://scontent-atl3-2.xx.fbcdn.net/o1/v/t0/f1/m247/6983983186963216174_1008160174_21-04-2024-14-58-29.jpeg?_nc_ht=scontent-atl3-2.xx.fbcdn.net&_nc_cat=100&ccb=9-4&oh=00_AfCJts6Mdaju8hHqImrXTTat4S0Lxr7Kl9APSpK4rEhbbQ&oe=6627787F&_nc_sid=5b3566"
+              alt="Product 5"
+          /></a>
+          <h3>Reusable Metal Straws</h3>
+          <p>
+            Set of 8 stainless steel straws with cleaning brush and travel case.
+            Say no to plastic!
+          </p>
+          <p>$15.99</p>
+          <button onclick="addToCart('Reusable Metal Straws', 15.99)">
+            Add to Cart
+          </button>
+        </div>
+        <!-- Add more products here -->
+        <!-- Product 6 -->
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://scontent-atl3-2.xx.fbcdn.net/o1/v/t0/f1/m247/5914478314159640812_4274720430_21-04-2024-14-59-00.jpeg?_nc_ht=scontent-atl3-2.xx.fbcdn.net&_nc_cat=107&ccb=9-4&oh=00_AfCtbn9hOxuiTcGjJTUnQoxS9StxYHePBaDkJ4pzyYPlWA&oe=662762FD&_nc_sid=5b3566"
+              alt="Product 6"
+          /></a>
+          <h3>Organic Beeswax Food Wraps</h3>
+          <p>
+            Reusable food wraps made from organic cotton and beeswax. Replace
+            single-use plastic wraps.
+          </p>
+          <p>$14.99</p>
+          <button onclick="addToCart('Organic Beeswax Food Wraps', 14.99)">
+            Add to Cart
+          </button>
+        </div>
+        <!-- Add more products here -->
+        <!-- Product 7 -->
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://scontent-atl3-2.xx.fbcdn.net/o1/v/t0/f1/m247/8094311728572040907_711299530_21-04-2024-14-59-34.jpeg?_nc_ht=scontent-atl3-2.xx.fbcdn.net&_nc_cat=109&ccb=9-4&oh=00_AfB-SSBXaLANo68wO6FEBab4sMalmmxraCqA-NMlJD0RPQ&oe=66276A70&_nc_sid=5b3566"
+              alt="Product 7"
+          /></a>
+          <h3>Stainless Steel Lunch Box</h3>
+          <p>
+            Durable lunch box with compartments, perfect for packing waste-free
+            meals.
+          </p>
+          <p>$18.99</p>
+          <button onclick="addToCart('Stainless Steel Lunch Box', 18.99)">
+            Add to Cart
+          </button>
+        </div>
+        <!-- Add more products here -->
+        <!-- Product 8 -->
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://scontent-atl3-2.xx.fbcdn.net/o1/v/t0/f1/m247/1189732032321466230_4179488155_21-04-2024-15-00-05.jpeg?_nc_ht=scontent-atl3-2.xx.fbcdn.net&_nc_cat=102&ccb=9-4&oh=00_AfBQ9xQa5UOpx1xXzxExY2Q-w5gYDLZLdSUNg640KXmYkg&oe=66277632&_nc_sid=5b3566"
+              alt="Product 8"
+          /></a>
+          <h3>Eco-Friendly Travel Mug</h3>
+          <p>
+            Stylish travel mug made from biodegradable materials. Keep your
+            drinks hot or cold.
+          </p>
+          <p>$16.99</p>
+          <button onclick="addToCart('Eco-Friendly Travel Mug', 16.99)">
+            Add to Cart
+          </button>
+        </div>
+        <!-- Add more products here -->
+        <!-- Product 9 -->
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://scontent-atl3-2.xx.fbcdn.net/o1/v/t0/f1/m247/1713673879625515041_2344379143_21-04-2024-15-00-29.jpeg?_nc_ht=scontent-atl3-2.xx.fbcdn.net&_nc_cat=104&ccb=9-4&oh=00_AfBPJrD-WrHWMy-iSP2bKMaHIOpqLaLjyRKp1SuCzggNsQ&oe=662782C6&_nc_sid=5b3566"
+              alt="Product 9"
+          /></a>
+          <h3>Recycled Glass Water Bottle</h3>
+          <p>
+            Beautiful glass water bottle with a silicone sleeve. Eco-friendly
+            and stylish.
+          </p>
+          <p>$14.99</p>
+          <button onclick="addToCart('Recycled Glass Water Bottle', 14.99)">
+            Add to Cart
+          </button>
+        </div>
+        <!-- Add more products here -->
+        <!-- Product 10 -->
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://scontent-atl3-2.xx.fbcdn.net/o1/v/t0/f1/m247/4769798384285028598_1369882586_21-04-2024-15-00-52.jpeg?_nc_ht=scontent-atl3-2.xx.fbcdn.net&_nc_cat=101&ccb=9-4&oh=00_AfDWK4ITP3eneKNwOdKyz30PllnZ_hcb62hNzsos_01VGA&oe=6627725E&_nc_sid=5b3566"
+              alt="Product 10"
+          /></a>
+          <h3>Biodegradable Bamboo Toothbrush</h3>
+          <p>
+            Sustainable toothbrush made from bamboo with soft bristles. Good for
+            you and the planet.
+          </p>
+          <p>$3.99</p>
+          <button onclick="addToCart('Biodegradable Bamboo Toothbrush', 3.99)">
+            Add to Cart
+          </button>
+        </div>
+        <!-- Add more products here -->
+      </div>
+    </section>
+
+    <section id="cart" class="container">
+      <h2>Shopping Cart</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="cart-total">0.00</span></p>
+      <button onclick="checkout()">Checkout</button>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact Us</h2>
+      <p>Email: contact@nonprofit.org</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Non-Profit Organization</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
